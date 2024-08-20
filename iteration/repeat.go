@@ -1,6 +1,8 @@
 package iteration
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const repeatCount = 5
 
