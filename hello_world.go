@@ -9,8 +9,16 @@ func hello() string {
 	return "hello world"
 }
 
+func hello2(name string) string {
+	if name != "" {
+		return "Hello, " + name
+	}
+	return "Hello, Stranger!"
+}
+
 func main() {
 	fmt.Println(hello())
+	fmt.Println(hello2(""))
 }
 
 // separation of side effects from the domain code
